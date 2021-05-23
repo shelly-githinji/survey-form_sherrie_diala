@@ -11,11 +11,15 @@
    <p id=description>Thank you for taking the time to fill this survey.</p>
    <form action="" id="survey-form">
        <label for="name" id="name-label" >Enter your name</label>
-       <input type="text" required id="name">
+       <input type="text" required id="name" placeholder="please enter your name">
        <label for="email"id="email-label" >Enter your email</label>
-       <input type="email" required id="email">
+       <input type="email" required id="email" placeholder="please enter your email">
        <label for="phone" id="number-label">Enter your phone number</label>
-       <input type="number" required id="number" min="5" max="10">
+       <input type="number" required id="number" min="5" max="10" placeholder="please enter your phone number">
+       <select name="gender" id="dropdown">
+           <option value="M">Male</option>
+           <option value="F">Female</option>
+       </select>
    </form>
 
 
