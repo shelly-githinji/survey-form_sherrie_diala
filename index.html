@@ -10,14 +10,12 @@
    <h1 id="title">Survey form</h1> 
    <p id=description>Thank you for taking the time to fill this survey.</p>
    <form action="" id="survey-form">
-       <label for="name">Enter your name</label>
+       <label for="name" id="name-label" >Enter your name</label>
        <input type="text" required id="name">
-       <label for="email">Enter your email</label>
+       <label for="email"id="email-label" >Enter your email</label>
        <input type="email" required id="email">
-       <label for="phone">Enter your phone number</label>
-       <input type="number" required id="number">
-
-
+       <label for="phone" id="number-label">Enter your phone number</label>
+       <input type="number" required id="number" min="5" max="10">
    </form>
 
 
